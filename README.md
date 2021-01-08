@@ -1,4 +1,4 @@
-# minecraft-sisters
+# Discord Bot for minecraft-sisters GCP minecraft server
 
 Discord bot for initializing and stopping Google Cloud Compute Engine Minecraft Server Instance
 Hosted on Heroku and written in Python
