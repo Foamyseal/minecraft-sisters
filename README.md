@@ -18,4 +18,9 @@ Hosted on Heroku and written in Python
 6. Make sure for !mc status to work, set enable_query to be true in the server properties file on your server. 
 7. Deploy on heroku and it should work :)) 
 
+# Commands:
+!mcs start - to start minecraft server
+!mcs status - display members online 
+!mcs stop - stop minecraft server
+
 enjoy, martin au-yeung. 
