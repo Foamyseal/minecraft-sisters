@@ -11,16 +11,16 @@ Hosted on Heroku and written in Python
 3. push changes to git
 4. In heroku, set convig vars for your own discord token and server IP (naming the keys DISCORD_TOKEN and SERVER_IP respectively)
 5. Add addtional config vars for Google Cloud Credentials. You have to download your credentials from Google Cloud Service Account page: https://cloud.google.com/docs/authentication/getting-started, follow guide here on how to do so ( creating service account), you shouldve downloaded a JSON file when done: 
-      1 - Declare your env variables from in Heroku dashboard like :
+      * 1 - Declare your env variables from in Heroku dashboard like :
       The GOOGLE_CREDENTIALS variable is the content of service account credential JSON file as is. The GOOGLE_APPLICATION_CREDENTIALS env variable in the string "google-                credentials.json"
-      2 - Once variables are declared, add the builpack in heroku in the section below the config vars and pasting this link:
+     * 2 - Once variables are declared, add the builpack in heroku in the section below the config vars and pasting this link:
       https://github.com/gerywahyunugraha/heroku-google-application-credentials-buildpack
 6. Make sure for !mc status to work, set enable_query to be true in the server properties file on your server. 
 7. Deploy on heroku and it should work :)) 
 
 # Commands:
-!mcs start - to start minecraft server
-!mcs status - display members online 
-!mcs stop - stop minecraft server
+* !mcs start - to start minecraft server
+* !mcs status - display members online 
+* !mcs stop - stop minecraft server
 
 enjoy, martin au-yeung. 
