@@ -15,7 +15,7 @@ Hosted on Heroku and written in Python
       The GOOGLE_CREDENTIALS variable is the content of service account credential JSON file as is. The GOOGLE_APPLICATION_CREDENTIALS env variable in the string "google-                credentials.json"
      * 2 - Once variables are declared, add the builpack in heroku in the section below the config vars and pasting this link:
       https://github.com/gerywahyunugraha/heroku-google-application-credentials-buildpack
-6. Make sure for !mc status to work, set enable_query to be true in the server properties file on your server. 
+6. Make sure for !mc status to work, set enable_query to be true in the server properties file on your server. As well, add on a UDP firewall rule in your Google Cloud settings onto your pre-existing firewall rule. 
 7. Deploy on heroku and it should work :)) 
 
 # Commands:
